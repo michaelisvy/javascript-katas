@@ -1,0 +1,27 @@
+.DS_Store
+node_modules
+/dist
+
+# `target` folder is used for test coverage reports
+/target
+
+# scrapbook files should not be persisted
+scrapbook*
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
