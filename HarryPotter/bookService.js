@@ -7,7 +7,7 @@ function getNumberOfBooksInCurrentRound(books, maxPerRound) {
         }
         if (numberOfBooksInCurrentRound === maxPerRound) {
             break;
-        }
+        }         
     }
     return numberOfBooksInCurrentRound;
 }
